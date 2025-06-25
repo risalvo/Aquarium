@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-debug-33:/layout_page_item.xml.flat",
+        "source": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-main-35:/layout/page_item.xml"
+    },
+    {
+        "merged": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-debug-33:/layout_activity_main.xml.flat",
+        "source": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-debug-33:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-debug-33:/drawable_error.xml.flat",
+        "source": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-main-35:/drawable/error.xml"
+    },
+    {
+        "merged": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-debug-33:/drawable_image1.png.flat",
+        "source": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-main-35:/drawable/image1.png"
+    },
+    {
+        "merged": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-debug-33:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-debug-33:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-pngs-29:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-33:/layout_activity_main.xml.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-debug-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-debug-33:/drawable_placeholder.xml.flat",
+        "source": "/Users/ignaciosalvo/.gradle/daemon/8.11.1/org.hyperskill.aquarium.Aquarium-task-main-35:/drawable/placeholder.xml"
+    }
+]
