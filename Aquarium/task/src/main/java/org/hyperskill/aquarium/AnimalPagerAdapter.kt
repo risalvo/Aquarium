@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 
-
 class AnimalPagerAdapter(
     private val imageList: List<String>,
     private val nameList: List<String>,
@@ -16,9 +15,20 @@ class AnimalPagerAdapter(
 ) : RecyclerView.Adapter<AnimalPagerAdapter.AnimalViewHolder>() {
 
     class AnimalViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val imageView: ImageView = view.findViewById(R.id.image_view)
-        val tvName: TextView = view.findViewById(R.id.tv_name)
-        val tvDescription: TextView = view.findViewById(R.id.tv_description)
+        private val imageView: ImageView = view.findViewById(R.id.image_view)
+        private val nameTextView: TextView = view.findViewById(R.id.tv_name)
+        private val descriptionTextView: TextView = view.findViewById(R.id.tv_description)
+
+        fun bind(imageUrl: String, name: String, description: String) {
+            nameTextView.text = name
+            descriptionTextView.text = description
+
+            Picasso.get()
+                .load(imageUrl)
+                .placeholder(R.drawable.placeholder)
+                .error(R.drawable.error)
+                .into(imageView)
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AnimalViewHolder {
@@ -28,14 +38,7 @@ class AnimalPagerAdapter(
     }
 
     override fun onBindViewHolder(holder: AnimalViewHolder, position: Int) {
-        holder.tvName.text = nameList[position]
-        holder.tvDescription.text = descriptionList[position]
-
-        Picasso.get()
-            .load(imageList[position])
-            .placeholder(R.drawable.placeholder)
-            .error(R.drawable.error)
-            .into(holder.imageView)
+        holder.bind(imageList[position], nameList[position], descriptionList[position])
     }
 
     override fun getItemCount(): Int = imageList.size
